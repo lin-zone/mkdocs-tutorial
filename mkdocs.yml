@@ -1,3 +1,14 @@
-site_name: MkDocs Tutorial    # 站点名
+# 站点名
+site_name: MkDocs Tutorial
+
+# 主题
+theme: readthedocs
+
 repo_url: https://github.com/lin-zone/mkdocs-tutorial   # 部署的仓库地址
 repo_name: GitHub
+
+nav:
+  - Home: index.md
+  - User Guide:
+    - Writing your docs: ./user-guide/writing-your-docs.md
+    - Styling your docs: ./user-guide/styling-your-docs.md
