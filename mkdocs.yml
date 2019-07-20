@@ -1,1 +1,3 @@
-site_name: My Docs
+site_name: MkDocs Tutorial    # 站点名
+repo_url: https://github.com/lin-zone/mkdocs-tutorial   # 部署的仓库地址
+repo_name: GitHub
