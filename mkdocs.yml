@@ -8,7 +8,9 @@ repo_url: https://github.com/lin-zone/mkdocs-tutorial   # 部署的仓库地址
 repo_name: GitHub
 
 nav:
-  - Home: index.md
-  - User Guide:
-    - Writing your docs: ./user-guide/writing-your-docs.md
-    - Styling your docs: ./user-guide/styling-your-docs.md
+    - Home: index.md
+    - User Guide:
+        - Writing your docs: user-guide/writing-your-docs.md
+        - Styling your docs: user-guide/styling-your-docs.md
+    - About:
+        - License: about/license.md
